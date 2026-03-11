@@ -57,7 +57,7 @@ class CountdownWindow(tk.Toplevel):
 
         ttk.Label(
             self,
-            text="Smol Key Sender",
+            text="Start listening for a keypress in your app!",
             anchor="center",
             font=("Comic Sans MS", 11, "bold"),
         ).grid(row=0, column=0, padx=20, pady=(15, 8), sticky="ew")
