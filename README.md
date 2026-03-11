@@ -1,4 +1,4 @@
-# Smol Key Sender
+# Smol_Key_Presser
 
 A smol lil guy that sends F13 through F24 after a 5-second countdown.
 

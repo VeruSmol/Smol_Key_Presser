@@ -47,7 +47,7 @@ class CountdownWindow(tk.Toplevel):
         self.fn_key = fn_key
         self.remaining = COUNTDOWN_SECONDS
 
-        self.title("Smol Key Sender")
+        self.title("Smol Key Presser")
         self.resizable(False, False)
         self.attributes("-topmost", True)
         self.iconbitmap(resource_path("VS_FN_Logo.ico"))
@@ -128,7 +128,7 @@ class App(tk.Tk):
     def __init__(self) -> None:
         super().__init__()
 
-        self.title("Smol Key Sender Selection Menu")
+        self.title("Smol Key Presser Selection Menu")
         self.resizable(False, False)
         self.attributes("-topmost", True)
         self.iconbitmap(resource_path("VS_FN_Logo.ico"))
